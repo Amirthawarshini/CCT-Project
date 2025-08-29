@@ -1,4 +1,4 @@
-                                                                             ☀️ SunKissed Sips:
+                                                   ☀️ SunKissed Sips:
 SunKissed Sips is a fun little web app where users can build a cafe order, item by item. It’s simple, sweet, and fully front-end — perfect for mini projects or UI practice. 🍹🍰
 __________________________________________________________________________________________________________________________________
 
