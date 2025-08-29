@@ -1,0 +1,74 @@
+body {
+    background-color: #FFE4EC; /* soft pink */
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.cafe-name {
+    font-size: 3rem;
+    color: #C06C84;
+    background: #FFD6DC;
+    padding: 15px;
+    border-radius: 15px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.menu-title {
+    font-size: 2rem;
+    color: #A05278;
+    margin-bottom: 20px;
+}
+
+.menu-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px auto;
+    max-width: 1000px;
+    background-color: #FFDAB9; /* soft peach */
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+}
+
+.category-box {
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+    width: 220px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+.category-box h3 {
+    text-align: center;
+    color: #FF6F91;
+}
+
+.order-summary {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0,0,0,0.1);
+    display: inline-block;
+}
+
+.menu-button, button {
+    background-color: #FFB6C1;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #FF69B4;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sunkissed Sips - Order</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="cafe-name">Sunkissed Sips</h1>
+    <h2 class="menu-title">Select Your Items</h2>
+
+    <div class="menu-box">
+        <div class="category-box">
+            <h3>Snacks</h3>
+            <label>Pizza (₹150): <input type="number" min="0" data-item="pizza" class="item-quantity"></label><br>
+            <label>Burger (₹100): <input type="number" min="0" data-item="burger" class="item-quantity"></label><br>
+            <label>Pasta (₹120): <input type="number" min="0" data-item="pasta" class="item-quantity"></label><br>
+            <label>Samosa (₹40): <input type="number" min="0" data-item="samosa" class="item-quantity"></label><br>
+            <label>Chicken Roll (₹130): <input type="number" min="0" data-item="chicken_roll" class="item-quantity"></label><br>
+        </div>
+
+        <div class="category-box">
+            <h3>Drinks</h3>
+            <label>Coke (₹50): <input type="number" min="0" data-item="coke" class="item-quantity"></label><br>
+            <label>Lemonade (₹60): <input type="number" min="0" data-item="lemonade" class="item-quantity"></label><br>
+            <label>Cold Coffee (₹80): <input type="number" min="0" data-item="coffee" class="item-quantity"></label><br>
+            <label>Mojito (₹70): <input type="number" min="0" data-item="mojito" class="item-quantity"></label><br>
+            <label>Milkshake (₹90): <input type="number" min="0" data-item="milkshake" class="item-quantity"></label><br>
+        </div>
+
+        <div class="category-box">
+            <h3>Ice Cream</h3>
+            <label>Vanilla (₹60): <input type="number" min="0" data-item="vanilla" class="item-quantity"></label><br>
+            <label>Chocolate (₹70): <input type="number" min="0" data-item="chocolate" class="item-quantity"></label><br>
+            <label>Strawberry (₹65): <input type="number" min="0" data-item="strawberry" class="item-quantity"></label><br>
+            <label>Butterscotch (₹75): <input type="number" min="0" data-item="butterscotch" class="item-quantity"></label><br>
+            <label>Mango (₹80): <input type="number" min="0" data-item="mango" class="item-quantity"></label><br>
+        </div>
+
+        <div class="category-box">
+            <h3>Desserts</h3>
+            <label>Brownie (₹110): <input type="number" min="0" data-item="brownie" class="item-quantity"></label><br>
+            <label>Pastry (₹130): <input type="number" min="0" data-item="pastry" class="item-quantity"></label><br>
+            <label>Donut (₹80): <input type="number" min="0" data-item="donut" class="item-quantity"></label><br>
+            <label>Cupcake (₹90): <input type="number" min="0" data-item="cupcake" class="item-quantity"></label><br>
+            <label>Muffin (₹85): <input type="number" min="0" data-item="muffin" class="item-quantity"></label><br>
+        </div>
+    </div>
+
+    <div class="order-summary">
+        <p id="total-bill">Your total bill is ₹ 0</p>
+        <button onclick="goToConfirmation()">Place Order</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
